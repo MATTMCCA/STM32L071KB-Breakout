@@ -92,10 +92,6 @@ void Error_Handler(void);
 #define PIN_PA11_GPIO_Port GPIOA
 #define PIN_PA12_Pin GPIO_PIN_12
 #define PIN_PA12_GPIO_Port GPIOA
-#define PIN_PA13_Pin GPIO_PIN_13
-#define PIN_PA13_GPIO_Port GPIOA
-#define PIN_PA14_Pin GPIO_PIN_14
-#define PIN_PA14_GPIO_Port GPIOA
 #define PIN_PA15_Pin GPIO_PIN_15
 #define PIN_PA15_GPIO_Port GPIOA
 #define PIN_PB3_Pin GPIO_PIN_3

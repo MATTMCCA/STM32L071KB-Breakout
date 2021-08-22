@@ -101,7 +101,7 @@ int main(void)
 
 
   /* TEST GPIO STRUCT ARRAY */
-  pinmap pm[25] =
+  pinmap pm[23] =
   {
 	  {PIN_PA0_GPIO_Port,  PIN_PA0_Pin},
 	  {PIN_PA1_GPIO_Port,  PIN_PA1_Pin},
@@ -116,8 +116,8 @@ int main(void)
 	  {PIN_PA10_GPIO_Port, PIN_PA10_Pin},
 	  {PIN_PA11_GPIO_Port, PIN_PA11_Pin},
 	  {PIN_PA12_GPIO_Port, PIN_PA12_Pin},
-	  {PIN_PA13_GPIO_Port, PIN_PA13_Pin},
-	  {PIN_PA14_GPIO_Port, PIN_PA14_Pin},
+	  //{PIN_PA13_GPIO_Port, PIN_PA13_Pin},
+	  //{PIN_PA14_GPIO_Port, PIN_PA14_Pin},
 	  {PIN_PA15_GPIO_Port, PIN_PA15_Pin},
 	  {PIN_PB0_GPIO_Port,  PIN_PB0_Pin},
 	  {PIN_PB1_GPIO_Port,  PIN_PB1_Pin},
@@ -140,8 +140,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  for(int i = 0; i < 25; i++) {
+	  for(int i = 0; i < 23; i++) {
 		  HAL_GPIO_TogglePin(pm[0].GPIOx, pm[0].GPIO_Pin); //should toggle all pins forever
+		  __NOP(); //add breakpoint
 	  }
 
   }

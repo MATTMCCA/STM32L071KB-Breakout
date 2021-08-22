@@ -31,7 +31,12 @@
 
 /* USER CODE END 1 */
 
-/** Configure pins
+/** Configure pins as
+        * Analog
+        * Input
+        * Output
+        * EVENT_OUT
+        * EXTI
 */
 void MX_GPIO_Init(void)
 {
@@ -50,7 +55,7 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, PIN_PA0_Pin|PIN_PA1_Pin|PIN_PA2_Pin|PIN_PA3_Pin
                           |PIN_PA4_Pin|PIN_PA5_Pin|PIN_PA6_Pin|PIN_PA7_Pin
                           |PIN_PA8_Pin|PIN_PA9_Pin|PIN_PA10_Pin|PIN_PA11_Pin
-                          |PIN_PA12_Pin|PIN_PA13_Pin|PIN_PA14_Pin|PIN_PA15_Pin, GPIO_PIN_RESET);
+                          |PIN_PA12_Pin|PIN_PA15_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, PIN_PB0_Pin|PIN_PB1_Pin|PIN_PB3_Pin|PIN_PB4_Pin
@@ -66,11 +71,11 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pins : PAPin PAPin PAPin PAPin
                            PAPin PAPin PAPin PAPin
                            PAPin PAPin PAPin PAPin
-                           PAPin PAPin PAPin PAPin */
+                           PAPin PAPin */
   GPIO_InitStruct.Pin = PIN_PA0_Pin|PIN_PA1_Pin|PIN_PA2_Pin|PIN_PA3_Pin
                           |PIN_PA4_Pin|PIN_PA5_Pin|PIN_PA6_Pin|PIN_PA7_Pin
                           |PIN_PA8_Pin|PIN_PA9_Pin|PIN_PA10_Pin|PIN_PA11_Pin
-                          |PIN_PA12_Pin|PIN_PA13_Pin|PIN_PA14_Pin|PIN_PA15_Pin;
+                          |PIN_PA12_Pin|PIN_PA15_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
