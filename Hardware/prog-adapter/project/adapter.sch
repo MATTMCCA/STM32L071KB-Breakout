@@ -639,6 +639,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="218.44" y="20.32" size="2.1844" layer="94">MJM</text>
 </plain>
 <instances>
 <instance part="J1" gate="A" x="86.36" y="139.7" smashed="yes">
