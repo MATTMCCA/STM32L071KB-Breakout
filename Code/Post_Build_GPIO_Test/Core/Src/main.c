@@ -141,7 +141,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 	  for(int i = 0; i < 23; i++) {
-		  HAL_GPIO_TogglePin(pm[0].GPIOx, pm[0].GPIO_Pin); //should toggle all pins forever
+		  HAL_GPIO_TogglePin(pm[i].GPIOx, pm[i].GPIO_Pin); //should toggle all pins forever
 		  __NOP(); //add breakpoint
 	  }
 
