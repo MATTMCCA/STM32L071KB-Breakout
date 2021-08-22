@@ -7,6 +7,10 @@
 **Gerbers meet JLC design spec**
  
  ## BOM
-EVAL [Digikey Cart Share](https://www.digikey.com/short/h47hrp48)
+* EVAL 
+[Digikey Cart Share](https://www.digikey.com/short/h47hrp48)
+[Board](https://oshpark.com/shared_projects/n7sNnrIe)
 
-PROG [Digikey Cart Share](https://www.digikey.com/short/nmdddnm9)
+* PROG 
+[Digikey Cart Share](https://www.digikey.com/short/nmdddnm9)
+[Board](https://oshpark.com/shared_projects/kYvOD2Zq)
