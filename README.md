@@ -1,4 +1,5 @@
 
+
 # STM32L071KB-Breakout
  STM32L071KB Breakout/Eval Board & STLink V2 adapter.
  
@@ -18,3 +19,10 @@
 [Digikey Cart Share](https://www.digikey.com/short/nmdddnm9)
 
 [Board](https://oshpark.com/shared_projects/kYvOD2Zq)
+
+---
+### Captains Log (start date.. too cloudy, can't tell)
+
+Boards came back from fab, they look good. Just waiting on parts.
+
+![alt text](https://github.com/MATTMCCA/STM32L071KB-Breakout/blob/main/IMG/boards.png?raw=true)
