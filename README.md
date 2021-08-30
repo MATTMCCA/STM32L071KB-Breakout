@@ -21,8 +21,8 @@
 [Board](https://oshpark.com/shared_projects/kYvOD2Zq)
 
 ---
-### Captains Log (start date.. too cloudy, can't tell)
+### Captains Log (star date.. too cloudy, can't tell)
 
-Boards came back from fab, they look good. Just waiting on parts.
+Boards came back from fab, they look good, just waiting on parts....
 
 ![alt text](https://github.com/MATTMCCA/STM32L071KB-Breakout/blob/main/IMG/boards.png?raw=true)
