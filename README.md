@@ -30,4 +30,4 @@ Boards came back from fab, they look good, just waiting on parts....
 
 Parts came today, everything's working just fine.
 
-![alt text](https://github.com/MATTMCCA/STM32L071KB-Breakout/blob/main/IMG/working_test_OK?raw=true)
+![alt text](https://github.com/MATTMCCA/STM32L071KB-Breakout/blob/main/IMG/working_test_OK.png?raw=true)
